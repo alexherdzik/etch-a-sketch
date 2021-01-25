@@ -1,13 +1,12 @@
 #grid-container {
     border: 1px solid #000;
-    display: flex;
-    flex-flow: row wrap; 
-    width: 960px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr); 
+    height: 500px;
+    width: 500px;
   }
   
   .grid-square {
     border: 1px solid #000;
     box-sizing: border-box;
-    height: 60px;
-    width: 60px;
   }
